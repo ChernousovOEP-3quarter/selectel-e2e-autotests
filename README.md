@@ -13,7 +13,7 @@
 ## Инструкция:
 Склонируйте проект автотестов с репозитория:
 ```bash
-git clone
+git clone https://github.com/ChernousovOEP-3quarter/selectel-e2e-autotests.git
 ```
 
 I. Установите nvm:
@@ -47,17 +47,16 @@ npm install
 npx playwright install
 ```
 
-4. Запуск тестов:
-Обычный режим:
+4. Запуск тестов в обычном режиме:
 ```bash
 npx playwright test
 ```
-Графический режим:
+5. Запуск тестов в графическом режиме:
 ```bash
 npx playwright test --ui
 ```
 
-5. Посмотреть отчёт после тестов:
+6. Посмотреть отчёт после тестов:
 ```bash
 npx playwright show-report
 ```
