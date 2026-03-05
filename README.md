@@ -11,7 +11,7 @@
 Используется язык TypeScript, фреймворк для проведения браузерных E2E-тестов Playwright и его стандартная система генерации отчётов.
 
 ## Инструкция:
-Склонируйте проект автотестов с репозитория:
+Склонируйте проект автотестов с данного репозитория:
 ```bash
 git clone https://github.com/ChernousovOEP-3quarter/selectel-e2e-autotests.git
 ```
@@ -51,6 +51,7 @@ npx playwright install
 ```bash
 npx playwright test
 ```
+
 5. Запуск тестов в графическом режиме:
 ```bash
 npx playwright test --ui
